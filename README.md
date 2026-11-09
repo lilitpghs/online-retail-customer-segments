@@ -4,7 +4,6 @@ Which customers should a business keep, win back or stop chasing? This project g
 
 **Tools:** Python (pandas), SQL (SQLite), Matplotlib, Seaborn
 
-**[View the full analysis notebook](customer_segments.ipynb)**
 
 ## Key findings
 
@@ -66,32 +65,3 @@ Returns are kept and subtracted from each customer's spending. Very large custom
 - **Mostly UK, possibly wholesalers:** 84% of revenue is from the UK, and some customers buy large quantities.
 - **Old data:** it ends in 2011, so this shows a method, not what today's customers would do.
 
-## Repository structure
-
-```text
-├── customer_segments.ipynb   # Full analysis, with outputs
-├── figures/                  # Charts
-├── outputs/                  # Result tables, including the contact-first list
-├── requirements.txt
-└── README.md
-```
-
-## Run it yourself
-
-1. Install the dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Download `online_retail_II.xlsx` from [UCI](https://archive.ics.uci.edu/dataset/502/online+retail+ii) and put it next to the notebook.
-
-3. Open the notebook and run all cells. Reading the file takes a few minutes.
-
-   ```bash
-   jupyter notebook customer_segments.ipynb
-   ```
-
-## Author
-
-**Lilit Poghosyan**
