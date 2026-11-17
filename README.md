@@ -60,7 +60,7 @@ Returns are kept and subtracted from each customer's spending. Very large custom
 
 ## Limitations
 
-- **Past behaviour only:** the test shows who came back, not whether contacting them would help.
+- **Past behavior only:** the test shows who came back, not whether contacting them would help.
 - **Christmas effect:** the 6-month test includes the Christmas season, so its rates are higher than usual.
 - **Missing customers:** about 23% of rows have no Customer ID, so those sales aren't included.
 - **Rule cut-offs are my choice:** changing them would change the group sizes.
